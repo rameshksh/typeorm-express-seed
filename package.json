@@ -1,0 +1,30 @@
+{
+   "name": "typeorm-express-seed",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/chai": "^4.2.4",
+      "@types/mocha": "^5.2.7",
+      "@types/node": "^8.0.29",
+      "chai": "^4.2.0",
+      "inversify": "^5.0.1",
+      "inversify-express-utils": "^6.3.2",
+      "mocha": "^6.2.2",
+      "sinon": "^7.5.0",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "body-parser": "^1.18.1",
+      "express": "^4.15.4",
+      "mongodb": "^3.3.3",
+      "mssql": "^4.0.4",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.20"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+      "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+   }
+}
