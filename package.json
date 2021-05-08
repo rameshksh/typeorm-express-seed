@@ -20,7 +20,7 @@
       "mongodb": "^3.3.3",
       "mssql": "^4.0.4",
       "reflect-metadata": "^0.1.10",
-      "typeorm": "0.2.20"
+      "typeorm": "0.2.25"
    },
    "scripts": {
       "start": "ts-node src/index.ts",
