@@ -16,7 +16,7 @@
    },
    "dependencies": {
       "body-parser": "^1.18.1",
-      "express": "^4.15.4",
+      "express": "^4.17.3",
       "mongodb": "^3.3.3",
       "mssql": "^4.0.4",
       "reflect-metadata": "^0.1.10",
